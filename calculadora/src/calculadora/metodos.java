@@ -2,6 +2,7 @@
 package calculadora;
 
 public class metodos {
+
     
     // Operaciones principales
         // Uso de int ya que nos permite un máximo de 2 mil millones (positivos y negativos)
@@ -10,7 +11,12 @@ public class metodos {
     public int multiEntero ( int op1, int op2){ return (op1 * op2); }
     public int divisionEntero ( int op1, int op2){ return (op1 / op2); }
     public int moduloEntero ( int op1, int op2){ return (op1 % op2); }
-    
+    public double sumaDouble ( double op1, double op2){ return (op1 + op2); }
+    public double restaDouble ( double op1, double op2){ return (op1 - op2); }
+    public double multiDouble ( double op1, double op2){ return (op1 * op2); }
+    public double divisionDouble ( double op1, double op2){ return (op1 / op2); }
+    public double moduloDouble ( double op1, double op2){ return (op1 % op2); }
+
     // Operaciones avanzadas
     public double potencia (double op1, double op2){ return Math.pow(op1, op2);} // x^y
     public double potenciaCuadrada (double op1){ return Math.pow(op1,2);} // x^2
